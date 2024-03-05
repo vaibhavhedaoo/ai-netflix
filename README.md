@@ -90,3 +90,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Steps :
 1. Create react APP with the help of boilerplate code use command npx create-react-app ai-netflix
 2. configure tailwind css for create-react-app [check the steps here](https://tailwindcss.com/docs/guides/create-react-app)  
+3. Build Header
+4. Build Login Form
+5. Build Sign Up Form
+
+
+
+RESUME :  1:23:43

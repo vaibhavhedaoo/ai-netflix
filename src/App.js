@@ -1,11 +1,10 @@
 import './App.css';
+import Body from './components/Body';
 
 function App() {
   return (
-    <div className="font-extrabold text-center text-4xl text-red-700">
-     AI-NetFlix
-    </div>
-  );
+      <Body/>
+    );
 }
 
 export default App;
