@@ -93,7 +93,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 3. Build Header
 4. Build Login Form
 5. Build Sign Up Form
+6. Routing of App
+7. Firebase setup
+8. Deploying the APP to production
+9. Create Signup User account
+10. Create Sign In 
+11. Setup Redux store with User Slice
+12. Implemented Sign Out
+13. Update Profile
 
 
 
-RESUME :  1:23:43
+## Learning on the go :
+1. Using form
+2. Form Validation
+3. Using useRef Hook
+4. 
+
+
+## useRef Hook
+- useRef is a React Hook that lets you reference a value that’s not needed for rendering.[check here](https://react.dev/reference/react/useRef) and [here](https://www.geeksforgeeks.org/react-js-useref-hook/)
+
