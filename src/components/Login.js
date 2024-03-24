@@ -4,14 +4,12 @@ import { BG_URL } from '../utils/constant';
 import {checkValideData} from "../utils/validate";
 import { createUserWithEmailAndPassword,signInWithEmailAndPassword,updateProfile } from "firebase/auth";
 import {auth} from "../utils/firebase";
-import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux'
 import { addUser } from '../utils/userSlice'
 
 
 const Login = () => {
   const dispatch = useDispatch();
-  const navigate = useNavigate();
   const [isSignInForm,SetIsSignInForm] =useState(true);
   const [errorMessage, setErrorMessage] = useState(null);
   const email = useRef(null);
@@ -48,7 +46,6 @@ const Login = () => {
                     displayName : displayName,
                     photoURL : photoURL
               }));
-              navigate("/browse");  
             }).catch((error) => {
               // An error occurred
               // ...
@@ -69,8 +66,6 @@ const Login = () => {
               // Signed in 
             const user = userCredential.user;
             console.log(user);
-            navigate("/browse");
-            // ...
         })
         .catch((error) => {
             const errorCode = error.code;
@@ -88,7 +83,7 @@ const Login = () => {
     <div>
       <Header/>
       <div className="absolute">
-      <img src={BG_URL} alt="Background" />
+      <img src={BG_URL} alt="Background" className="w-screen" />
       </div>
       <form onSubmit={(e)=>{e.preventDefault()}} className="absolute p-12 bg-black w-3/12 h-1/2 my-80 mx-auto right-0 left-0 text-white rounded-xl bg-opacity-80" >
        

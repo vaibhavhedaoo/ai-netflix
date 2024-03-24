@@ -101,6 +101,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 11. Setup Redux store with User Slice
 12. Implemented Sign Out
 13. Update Profile
+14. Fetch from TMDB Movies
+15. BugFix : Signup user display name and profile pic update
+16. BugFix : if user is not logged in Redirect/browse to Login page, else to browse page
+17. Unsubscribed to onAuthStateChanged callback
+18. Register for TMDB API and create an APP get access token
+19. Get Data from TMDB now playing movies list API
+20. Created custom hook for nowplaying movies
+21. create movie slice
+22. Update store with movies data
+23. planning for main and secondary container
+24. fetch data for trailer video
+25. update store with trailer video data
+26. embedded the youtube video and make it autoplay and mute
+27. tailwind classes added 
+
 
 
 
@@ -108,7 +123,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 1. Using form
 2. Form Validation
 3. Using useRef Hook
-4. 
+ 
 
 
 ## useRef Hook
