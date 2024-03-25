@@ -115,6 +115,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 25. update store with trailer video data
 26. embedded the youtube video and make it autoplay and mute
 27. tailwind classes added 
+28. Build secondary component
+29. Build Movie List
+30. Build Movie Card
+31. TMDB Image CDN
+32. made browse page amazing with tailwind css
+33. different hooks created 
 
 
 

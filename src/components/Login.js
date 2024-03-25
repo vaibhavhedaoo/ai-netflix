@@ -33,7 +33,7 @@ const Login = () => {
           .then((userCredential) => {
               // Signed up 
             const user = userCredential.user;
-            console.log(user);
+           
             updateProfile(auth.currentUser, {
               displayName: name.current.value, photoURL: "https://avatars.githubusercontent.com/u/27008048?s=400&u=8f157102126adb4daf4f6937a017893856fc4a73&v=4"
             }).then(() => {
@@ -65,7 +65,7 @@ const Login = () => {
             .then((userCredential) => {
               // Signed in 
             const user = userCredential.user;
-            console.log(user);
+           
         })
         .catch((error) => {
             const errorCode = error.code;

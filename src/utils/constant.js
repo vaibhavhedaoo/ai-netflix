@@ -7,12 +7,12 @@ export const LOGO =
   export const USER_AVATAR =
   "https://occ-0-6247-2164.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABdpkabKqQAxyWzo6QW_ZnPz1IZLqlmNfK-t4L1VIeV1DY00JhLo_LMVFp936keDxj-V5UELAVJrU--iUUY2MaDxQSSO-0qw.png?r=e6e";
 
-
+  export const IMG_CDN = "https://image.tmdb.org/t/p/w500/";
   export const API_OPTIONS = {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiZjQ1ZWE1NDk1ZmY5ZDAyMzBmYzg2YTJmMzM4NDBkOCIsInN1YiI6IjY1ZjA4MzYxMTdiNWVmMDE2MmI3ZmYwMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.adZuBHlDb0FaWNPH624Is3CfXvOF5Nv_uPbwJxCE9sQ'
+      Authorization: 'Bearer [Add Bearer token here]'
     }
   };
 
